@@ -1,6 +1,6 @@
 {
   "name": "@ludlovian/link-signals",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Links signals bidirectionally",
   "main": "src/index.mjs",
   "exports": {
@@ -29,6 +29,5 @@
   "peerDependencies": {
     "@preact/signals-core": "^1.6.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
