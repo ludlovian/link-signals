@@ -1,0 +1,34 @@
+{
+  "name": "@ludlovian/link-signals",
+  "version": "0.0.0",
+  "description": "Links signals bidirectionally",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "scripts": {
+    "clean": "rm -rf coverage/ node_modules/.cache/",
+    "lint": "standard '{src,test}/**/*.mjs'|snazzy",
+    "format": "prettier-standard '{src,test}/**/*.mjs'",
+    "test": "c8 node --test",
+    "coverage": "npm run test && c8 report --reporter=html && sirv coverage/ -p 8000 -H"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludlovian/link-signals.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ludlovian/link-signals/issues"
+  },
+  "homepage": "https://github.com/ludlovian/link-signals#readme",
+  "devDependencies": {
+    "@preact/signals-core": "^1.6.1"
+  },
+  "peerDependencies": {
+    "@preact/signals-core": "^1.6.1"
+  },
+  "dependencies": {
+  }
+}

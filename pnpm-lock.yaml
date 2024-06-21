@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@preact/signals-core':
+        specifier: ^1.6.1
+        version: 1.6.1
+
+packages:
+
+  '@preact/signals-core@1.6.1':
+    resolution: {integrity: sha512-KXEEmJoKDlo0Igju/cj9YvKIgyaWFDgnprShQjzimUd5VynAAdTWMshawEOjUVeKbsI0aR58V6WOQp+DNcKApw==}
+
+snapshots:
+
+  '@preact/signals-core@1.6.1': {}
